@@ -1,0 +1,6 @@
+Integrating this script with the crontab to execute the script in regular intervals
+
+0 2 * * * /home/ec2-user/aws-resource-tracker/aws_resource_tracker.sh
+
+minute hour day month day_of_week command_to_execute
+In this case, the script runs at 2 AM every day.
